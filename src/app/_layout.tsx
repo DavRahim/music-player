@@ -6,7 +6,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 const App = () => {
     return (
-        <SafeAreaProvider>
+        <SafeAreaProvider >
             <GestureHandlerRootView style={{ flex: 1 }}>
                 <RootNavigation />
                 <StatusBar style="auto" />
