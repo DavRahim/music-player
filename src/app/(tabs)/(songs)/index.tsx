@@ -17,6 +17,7 @@ const SongsScreen = () => {
     })
 
     const tracks = useTracks()
+    // console.log(tracks, "tracks");
     console.log(tracks, "tracks");
 
     const filteredTracks = useMemo(() => {
